@@ -5,7 +5,7 @@ class DeveloperMigration < ActiveRecord::Migration
     create_table :developers do |t|
       t.string :name
       t.integer :email_id
-      t.date :start_company_on
+      t.date :started_with_company_on
     end
   end
 end

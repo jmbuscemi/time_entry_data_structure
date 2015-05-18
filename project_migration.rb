@@ -4,7 +4,7 @@ class ProjectMigration < ActiveRecord::Migration
   def change
     create_table :projects do |t|
       t.string :name
-      t.start_project_at :datetime
+      t.datetime :start_project_at
       t.integer :client_id
     end
   end
