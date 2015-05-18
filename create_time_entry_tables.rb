@@ -8,6 +8,7 @@ require './group_migration'
 require './industry_migration'
 require './project_migration'
 require './time_entry_migration'
+require './task_migration'
 
 ClientMigration.migrate(:up)
 CommentMigration.migrate(:up)
@@ -19,3 +20,4 @@ GroupMigration.migrate(:up)
 IndustryMigration.migrate(:up)
 ProjectMigration.migrate(:up)
 TimeEntryMigration.migrate(:up)
+TaskMigration.migrate(:up)
